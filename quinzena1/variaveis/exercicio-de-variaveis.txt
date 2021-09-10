@@ -1,0 +1,100 @@
+// Primeiro exercício de interpretação de código
+
+	// aparecerá no console:
+	// 10
+	// 10 5
+	// O valor da variável declarada 'b' é 10, porém foi modificado para 5 em seguida.
+
+
+// Segundo exercício de interpretação de código
+
+	// aparecerá no console:
+	// 10 10 10
+	// pois a=10 b=c que por sua vez c=a
+
+
+
+//Código do terceiro exercício:
+
+	// let p = prompt("Quantas horas você trabalha por dia?")
+	// let t = prompt("Quanto você recebe por dia?")
+	// alert(`Voce recebe ${t/p} por hora`)
+
+//Código do terceiro exercício após renomear as variáveis:
+
+	// let horasTrabalhadas = prompt("Quantas horas você trabalha por dia?")
+	// let valorDiario = prompt("Quanto você recebe por dia?")
+	// alert(`Voce recebe ${valorDiario/horasTrabalhadas} por hora`)
+
+
+
+
+// Primeiro exercício de Escrita de Código:
+
+    // let nome
+    // let idade
+    // console.log(typeof nome)
+    // console.log(typeof idade)
+    // No caso acima foi impresso 'undefined undefined' no console, justamente por não atribuirmos valores
+    
+    // let nome
+    // let idade
+    // nome = "alailson"
+    // idade = 32
+    // console.log(typeof nome)
+    // console.log(typeof idade)
+    // nome = prompt("Qual o seu nome?")
+    // idade = prompt("Qual a sua idade?")
+    // No caso acima, foi impresso 'string e number', pois foram atribuidos valores de texto e de número, respectivamente.
+
+    // let nome
+    // let idade
+    // nome = "alailson"
+    // idade = 32
+    // console.log(typeof nome)
+    // console.log(typeof idade)
+    // nome = prompt("Qual o seu nome?")
+    // idade = prompt("Qual a sua idade?")
+    // console.log('Olá', nome, ',', 'você tem', idade, 'anos')
+    // Foi mostrado no console "Olá Alailson , você tem 32 anos", mas poderia aparecer qualquer valor inserido pelo usuário.
+
+    
+    
+    // Segundo exercício de Escrita de Código:
+
+    // let tercaFeira
+    // let manha
+    // let estudaJavascript
+
+    // tercaFeira = prompt('Hoje é terça-feira?')
+    // manha = prompt('Ainda é de manhã?')
+    // estudaJavascript = prompt('Você está estudando Js?')
+
+    // resposta1 = tercaFeira
+    // resposta2 = manha
+    // resposta3 = estudaJavascript
+    
+    // console.log('Hoje é terça-feira?-', resposta1, 'Ainda é de manhã?-', resposta2, 'Você está estudando Js?-', resposta3)
+
+    // Foi mostrado no console "Hoje é terça-feira?- sim Ainda é de manhã?- sim Você está estudando Js?- sim" 
+    // Porém essas foram as minhas respostas, pode variar de acordo com oq o usuário inserir.
+
+   
+   
+    // Terceiro exercício de Escrita de Código:
+
+    // let a = 50
+    // let b = 100
+    
+
+    // c = b
+    // a = c
+    // b = a
+    
+
+    // console.log('O novo valor de A é:', a)
+    // console.log('O novo valor de B é:', b)
+
+    // Foi impresso no console:
+    // O novo valor de A é: 100
+    // O novo valor de B é: 100
