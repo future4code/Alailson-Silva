@@ -1,0 +1,106 @@
+// Exercício de interpretação de código
+
+//1)
+
+    // A) Será impresso no console: 10 50 um abaixo do outro
+
+    // B) Nenhum retorno seria mostrado no console, porém não daria erro
+
+
+//2)
+
+    // A)
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 1)Exercício de escrita de código
+
+// A)
+// function mensagemSobreMim() {
+//     console.log("Eu sou Alailson, tenho 32 anos, moro em Recife e sou estudante.")
+// }
+
+// mensagemSobreMim()
+
+// B)
+// function informacoesPessoais(nome, idade, cidade, profissao) {
+//     console.log(`Eu sou ${nome} tenho ${idade} anos e sou de ${cidade} minha profissão é ${profissao}`)
+
+// }
+// informacoesPessoais('alailson', '32', 'recife', 'tecnico adm')
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 2)Exercício de escrita de código
+
+// A) 
+
+// function somaDoisNumeros(primeiroNumero, segundoNumero) {
+//     const soma = primeiroNumero + segundoNumero
+// return soma
+// }
+
+// console.log(somaDoisNumeros(4, 8))
+
+// B)
+
+// function maiorIgual(numeroUm, numeroDois) {
+//     const resultado = numeroUm >= numeroDois
+//     return resultado
+// }
+
+// console.log(maiorIgual(10, 7))
+
+// C)
+
+
+// function numeroPar(numero) {
+//     const resultado = numero % 2 === 0
+//     return resultado
+// }
+// numeroPar(8)
+// console.log(numeroPar(8))
+
+
+//D)
+
+// function palavra(texto) {
+//     const resultado = `maiúscula: ${texto.toUpperCase()}. quantidade de caracteres: ${texto.length}.` 
+//     return resultado
+// }
+
+// console.log(palavra("Esta é uma mensagem bem bela e singela, bacaninha e show de bola"))
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 3) Exercício de escrita de código
+
+// function somaDoisNumeros(numeroUm, numeroDois) {
+//     const soma = numeroUm + numeroDois
+//     return soma
+// }
+
+// function subtraiDoisNumeros(numeroUm, numeroDois) {
+//     const subtrai = numeroUm - numeroDois
+//     return subtrai
+// }
+
+// function multiplicaDoisNumeros(numeroUm, numeroDois) {
+//     const multiplica = numeroUm * numeroDois
+//     return multiplica
+// }
+
+// function divideDoisNumeros(numeroUm, numeroDois) {
+//     const divide = numeroUm / numeroDois
+//     return divide
+// }
+
+// const numeroUm = Number(prompt("Por favor insira o primeiro número"))
+// const numeroDois = Number(prompt("Agora insira o segundo número"))
+
+// console.log("Númeors inseridos:", numeroUm, "e", numeroDois, "soma:", somaDoisNumeros(numeroUm, numeroDois), 
+// "Subtração:", subtraiDoisNumeros(numeroUm, numeroDois), "Multiplicação:", multiplicaDoisNumeros(numeroUm, numeroDois), 
+// "Divisão:", divideDoisNumeros(numeroUm, numeroDois))
+
