@@ -1,0 +1,122 @@
+// Questões de interpretação de código
+
+
+// 1) Será mostrado no console: 
+
+// Matheus Nachtergaele
+// 18
+// canal: "Globo", horario: "14h"
+
+////////////////////////////////////////////////////////////////
+
+// 2)
+
+
+
+// Irá aparecer: 
+// nome: Juca, idade: 3, raca: SRD
+// nome: Juba, idade: 3, raca: SRD
+// nome: Jubo, idade: 3, raca: SRD
+
+// No caso, o códido espalhou os dados da variável cachorro 
+// com outras duas variáveis, alterando apenas seus nomes
+// e trocando o 'a' pelo 'o' no último caso.
+
+// a sintaxe (...) serve justamente pra mesclar o conteúdo
+// de uma variável com outra
+
+////////////////////////////////////////////////////////////////////////
+
+
+// 3)
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+// Exercício de escrita de código
+
+// 1)
+
+
+// const pessoa = {
+//     nome: "Seu Madruga",
+//     apelidos: ["Madruguinha", "Tripa Seca", "Cabo de vassoura"]
+    
+    
+// }
+
+// const novosApelidos = (pessoa) => {
+    
+
+//     console.log(`Me chamo ${pessoa.nome} mas pode me chamar de ${pessoa.apelidos[0]}, ${pessoa.apelidos[1]}`)
+
+// }
+
+
+// const novosApelidos2 = {
+
+//     ...pessoa, 
+//     apelidos: ["lombriga", "gentalha"]
+
+
+// }
+
+// novosApelidos(novosApelidos2)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+// 2)
+
+
+// const pessoaUm = {
+
+//     nome: "Alailson",
+//     idade: 32,
+//     profissao: "Tec Adm"
+// }
+
+// const pessoaDois = {
+//     nome: "Mayara",
+//     idade: 28,
+//     profissao: "Analista"
+// }
+
+
+// function resultado(pessoas) {
+    
+// }
+// console.log(pessoaUm.nome, pessoaUm.nome.length, pessoaUm.idade, pessoaUm.profissao, pessoaUm.profissao.length)
+// console.log(pessoaDois.nome, pessoaDois.nome.length, pessoaDois.idade, pessoaDois.profissao, pessoaDois.profissao.length)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 3)
+
+
+// const carrinho = []
+
+// const frutaUm = {
+//     nome: "uva",
+//     disponibilidade: true
+// }
+
+// const frutaDois = {
+//     nome: "maçã",
+//     disponibilidade: true
+// }
+
+// const frutaTres = {
+//     nome: "abacaxi",
+//     disponibilidade: true
+// }
+
+// function fruta(objeto) {
+//     carrinho.push("uva")
+//     carrinho.push("maçã")
+//     carrinho.push("abacaxi")
+
+// }
+
+// console.log(frutaUm, frutaDois, frutaTres)
