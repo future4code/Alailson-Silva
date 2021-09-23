@@ -1,0 +1,126 @@
+// Exercício de interpretação de código
+
+// 1) 
+
+//A)
+// O código pede para que o usuário insira um número qualquer
+// e caso o resto da divisão deste número for "0", então há 
+// sucesso na realização do teste e uma mensagem informando
+// que o teste foi bem-sucedido é mostrada no console. Caso
+// contrário, aparece uma mensagem informando que o teste não 
+// passou.
+
+//B)
+// A mensagem "Passou no teste" aparece no console toda vez
+// que o usuário inserir um número que seja par.
+
+// C)
+// A mensagem "Não passou no teste" é mostrada quando o usuário
+// insere um número cujo resto de sua divisão não seja "0", ou seja,
+// números ímpares.
+
+//////////////////////////////////////////////////////////////////////////////
+
+//2)
+
+// A)
+// O código pede para que o usuário digite o nome de uma fruta.
+// ao digitar o nome correspondente a fruta, e caso ela seja uma 
+// das frutas indicadas no código, será mostrado no console o nome
+// da fruta seguido por seu preço. Caso seja inserido um nome diferente
+// do que foi indicado no código, mesmo que seja por uma letra maiúscula
+// ou minúscula, é impresso no console um valor de 'R$ 5'.
+
+// B)
+// O preço da fruta maçã é R$ 2.25
+
+// C)
+// Retirando o 'break' nesse trecho do código, resultaria na leitura
+// imediata do que consta no 'default': R$ 5
+
+////////////////////////////////////////////////////////////////////////////////
+
+// 3)
+
+// A)
+// A primeira linha está declarando uma variável que servirá para o código
+// trabalhar com o número que será inserido pelo usuário.
+
+// B)
+// Ao digitar "10" é mostrado no console a mensagem "Esse número passou no teste"
+// Ao digitar "-10" nenhuma mensagem é dada.
+
+// C)
+// Há um erro ao chamar a variável mensagem no final do código, pois ela não
+// está definida. (foi mal, eu não soube explicar direito :p).
+
+////////////////////////////////////////////////////////////////////////////////
+
+// Exercício de escrita de código
+
+// 1)
+
+// const idade = Number(prompt("Digite a sua idade"))
+
+// if(idade >= 18) {
+//     console.log("Você pode dirigir")
+// } else {
+//     console.log("Você não pode dirigir")
+// }
+
+//////////////////////////////////////////////////////////////////////////////////
+
+// 2)
+
+// const turnoDoDia = prompt("Digite o turno que você estuda (M, V ou N)")
+
+// if(turnoDoDia === "M") {
+//     console.log("Bom dia!")
+// } else {
+//     if(turnoDoDia === "V") {
+//         console.log("Boa tarde!")
+//     } else {
+//         if(turnoDoDia === "N") {
+//             console.log("Boa noite!")
+//         }
+//     }
+// }
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+// 3)
+
+// const turnoDoDia = prompt("Digite o turno que você estuda (M, V ou N)")
+
+// switch(turnoDoDia) {
+//     case "M":
+//         console.log("Bom dia!")
+//     break
+
+//     case "V":
+//         console.log("Boa tarde!")
+//     break
+
+//     case "M": 
+//     console.log("Boa noite!")
+//     break
+
+//     default:
+//         console.log("Digite uma opção válida!")
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+// 4)
+
+// const digiteGenero = prompt("Digite o gênero do filme")
+// const digiteValor = prompt("Digite o valor do ingresso")
+
+
+// if(digiteGenero === "fantasia" && digiteValor < 15) {
+//     console.log("Bom filme!")
+
+
+// } else {
+//     console.log("Escolha outro filme!")
+// }
