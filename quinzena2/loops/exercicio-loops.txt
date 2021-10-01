@@ -1,0 +1,92 @@
+// Exercício de interpretação de código
+
+// 2)
+
+// A) Será impresso todos os números maiores que "18" 
+// B) poderíamos usar o for... of... para acessar o índice
+
+// 3)
+
+// *
+// **
+// ***
+// ****
+
+
+
+
+// Exercício escrita de código
+
+// 1)
+
+// const animais = Number(prompt("Quantos animais de estimação você tem?"))
+// const nomes = []
+// if(animais === 0) {
+//     console.log("Que pena! Você pode adotar um pet!")
+// } 
+
+// if(animais > 0) {
+//     for(let i = 0; i < animais; i++) {
+//     let pets = prompt("Qual o nome dos seus pets")
+//     nomes[i] = pets
+// }
+// }
+//    console.log(nomes)
+
+////////////////////////////////////////////////////
+
+// 2)
+
+// A) 
+// const arrayOriginal = [30, 20, 80, 70, 200]
+
+// for(let item of arrayOriginal) {
+
+//     console.log(item)
+// }
+
+// B)
+
+// const arrayOriginal = [30, 20, 80, 70, 200]
+
+// for(let item of arrayOriginal) {
+
+//     console.log(item / 10)
+
+
+// C)
+// const arrayOriginal = [30, 20, 80, 70, 200]
+// const arrayNovo = []
+
+// for(let item of arrayOriginal) {
+//     if(item % 2 === 0) {
+//         arrayNovo.push(item)
+//     }
+// }
+// console.log(arrayNovo)
+
+// D) 
+
+// const arrayOriginal = [30, 20, 80, 70, 200]
+// const novoArray = []
+
+// for(let i = 0; i < arrayOriginal.length; i++) {
+//     let stringArray = "O elemento do índex " + i + " é: " + arrayOriginal[i]
+//     console.log(stringArray)
+
+// }
+
+
+
+
+
+
+
+    
+
+
+   
+
+    
+   
+
