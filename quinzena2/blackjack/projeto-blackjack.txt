@@ -1,0 +1,28 @@
+
+console.log("Bem-vinde ao jogo de Blackjack!!!")
+const comeco = confirm("Você deseja começar um novo jogo?")
+
+if(comeco) {
+   const primeiraCartaUsuario = comprarCarta()
+   const segundaCartaUsuario = comprarCarta()
+   const totalUsuario = primeiraCartaUsuario.valor + segundaCartaUsuario.valor
+
+   const primeiraCartaComputador = comprarCarta()
+   const segundaCartaComputador = comprarCarta()
+   const totalComputador = primeiraCartaComputador.valor + segundaCartaComputador.valor
+
+   console.log(`Mão do jogador: ${primeiraCartaUsuario.texto} ${segundaCartaUsuario.texto} Total: ${totalUsuario}`)
+   console.log(`Mão do computador: ${primeiraCartaComputador.texto} ${segundaCartaComputador.texto} Total: ${totalComputador}`)
+
+   if(totalUsuario > totalComputador) {
+      console.log("Parabéns, você venceu, tome um biscoito!!!")
+   } else if(totalComputador > totalUsuario) {
+      console.log("Não foi dessa vez... :(")
+   } else if(totalUsuario === totalComputador) {
+      console.log("Empate! Tente novamente...")
+   }
+
+
+} else {
+   console.log("Fim de jogo...")
+}
