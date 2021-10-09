@@ -1,3 +1,4 @@
+// EXERCÍCIO 01
 function inverteArray(array) {
 
   const arrayInversa = []
@@ -57,9 +58,6 @@ function retornaMaiorNumero(array) {
 
     
 
-
-
-
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
 
@@ -70,23 +68,29 @@ function retornaQuantidadeElementos(array) {
 
 // EXERCÍCIO 06
 
- const booleano1 = true
- const booleano2 = false
- const booleano3 = !booleano2 
- const booleano4 = !booleano3 
+// const booleano1 = true
+// const booleano2 = false
+// const booleano3 = !booleano2 
+// const booleano4 = !booleano3 
 
-function retornaExpressoesBooleanas() {
+function retornaExpressoesBooleanas(booleano1, booleano2, booleano3, booleano4) {
 
+  const responde = [booleano1 && booleano2 && !booleano4,(booleano1 && booleano2) || !booleano3,(booleano2 || booleano3) && (booleano4 || booleano1),
+  !(booleano2 && booleano3) || !(booleano1 && booleano3),!(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)]
+  console.log(responde)
 
-
+  return (responde)
 }
+  retornaExpressoesBooleanas(true, false, true, false)
 
 // EXERCÍCIO 07
+
+
 function retornaNNumerosPares(n) {
 
   let numerosPares = []
-  for (let i=0; numerosPares.length<n; i++){
-    if (i%2 === 0){
+  for (let i = 0; numerosPares.length < n; i++) {
+    if (i % 2 === 0) {
     numerosPares.push(i)
     }
   }
@@ -111,8 +115,9 @@ function checaTriangulo(a, b, c) {
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
 
-  let maior
-  let menor
+  let maior = undefined
+  let menor = undefined
+  let maiorDivisivelPorMenor = undefined
 
   if (num1 > num2) {
     maior = num1
@@ -120,11 +125,19 @@ function comparaDoisNumeros(num1, num2) {
   } else if (num2 > num1) {
     maior = num2
     menor = num1
+  } else if (num1 === num2) {
+    maior = num1
+    menor = num1
   }
-    const maiorDivisivelporMenor = maior % menor === 0
+  if (maior % menor === 0) {
+    maiorDivisivelPorMenor = true
+  } else {
+    maiorDivisivelPorMenor = false
+  }
+    
     const diferenca = maior - menor
 
-    return {maiorNumero : maior, maiorDivisivelporMenor : maiorDivisivelporMenor, diferenca : diferenca}
+    return {maiorNumero : maior, maiorDivisivelPorMenor : maiorDivisivelPorMenor, diferenca : diferenca}
     
 
 
@@ -132,6 +145,11 @@ function comparaDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 10
 function segundoMaiorEMenor(array) {
+
+  for (let index = 0; index < array.length; index++) {
+    
+    
+  }
 
 }
 
@@ -143,20 +161,48 @@ function ordenaArray(array) {
 // EXERCÍCIO 12
 function filmeFavorito() {
 
+  const filmeFavorito = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+
+  }
+    return filmeFavorito
+  
 }
+
 
 // EXERCÍCIO 13
 function imprimeChamada() {
-  // "Venha assistir ao filme NOME_DO_FILME, de ANO, dirigido por DIRECAO e estrelado por ELENCO."
-}
+
+  const filmeFavorito = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+
+  }
+    return `Venha assistir ao filme ${filmeFavorito.nome}, de ${filmeFavorito.ano}, dirigido por ${filmeFavorito.diretor} e estrelado por ${filmeFavorito.atores[0]}, ${filmeFavorito.atores[1]}, ${filmeFavorito.atores[2]}, ${filmeFavorito.atores[3]}.`
+  
+ } 
 
 // EXERCÍCIO 14
 function criaRetangulo(lado1, lado2) {
 
+ const perimetro = 2 * (lado1 + lado2)
+ const area = lado1 * lado2
+
+ return {largura: lado1, altura: lado2, perimetro: perimetro, area: area}
+
+
 }
+
 
 // EXERCÍCIO 15
 function anonimizaPessoa(pessoa) {
+
+  return {...pessoa, nome: "ANÔNIMO"}
 
 }
 
@@ -209,4 +255,3 @@ function ordenaPorData(consultasData) {
 function calculaSaldo(contas) {
 
 }
-
