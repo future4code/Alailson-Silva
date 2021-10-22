@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(33, 121, 121);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 800px;
+    margin-top: 2%;
+    margin-left: 38%;
+    text-align: right;
+}
+
+footer {
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 13px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.menu {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    
+}
+
+.menu1, .menu2, .menu3 {
+    margin: 40px 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: white;
+    width: 150px;
+    border-radius: 5px;
+    color: rgb(68, 204, 204);
+    
+}
+
+a {
+    color: white;
+}
+
+.direitos {
+    float: right;
+    margin-top: 2%;
+    margin-right: 30%;
+    font-size: 15px;
+    
+}
+
+.face {
+    width: 30px;
+    margin: 10px 10px;
+}
+
+.insta {
+    width: 30px;
+    margin: 10px 10px;
+}
+
+.linkedin {
+    width: 30px;
+    margin: 10px 10px;
+}
+
+.github {
+    width: 30px;
+    margin: 10px 10px;
+}
+
+.twitter {
+    width: 30px;
+    margin: 10px 10px;
+}
+
+.ola {
+    
+    color: white;
+    font-size: 60px;
+    font-family: 'Petit Formal Script', cursive;
+    margin-left: 15%;
+    margin-top: 10%;
+
+    
+}
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    width: 300px;
+    margin-left: 25%;    
+    
+}
+
+.principal {
+    width: 600px;
+    height: 600px;
+    margin-left: 30%;
+    margin-top: 6%;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 30px;
+}
+
+main {
+    color: white;
+    
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    align-self: center;
+    
+}
+
+.foto1 {
+    width: 400px;
+    align-self: center;
+    margin-left: 100px;
+    border-style: solid;
+    
+}
+
+.foto2 {
+    width: 400px;
+    align-self: center;
+    margin-left: 100px;
+    border-style: solid;
+    
+}
+
+.campo {
+    margin-top: 70px;
+}
+
+.botao {
+    width: 100px;
+    background-color: rgb(33, 121, 121);
+    border-radius: 5px;
+}
