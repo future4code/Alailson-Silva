@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#page-grid-conteiner {
+    display: grid;
+    height: 47vw;
+    grid-template-rows: 70px 1fr 50px;
+    
+}
+
+header {
+    background-color: mediumvioletred;
+    display: grid;
+    grid-template-columns: 1;
+    padding: 0 60px;
+    height: 70px;
+    align-items: center;
+}
+
+.confeitaria {
+    margin-left: 3.5%;
+    margin-top: -50px;
+    padding: 20px;
+    text-align: left;
+}
+
+footer {
+    background-color: mediumvioletred;
+    text-align: center;
+    
+}
+
+.rodape {
+    margin-top: 10px;
+}
+
+main {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 200px 50px 1fr;
+    
+    
+}
+
+#conteudo{
+    display: grid;
+    grid-template-rows: 280px 280px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.bolo-um {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+
+    
+}
+.bolo-dois {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.bolo-tres {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.bolo-quatro {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.bolo-cinco {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.bolo-seis {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.bolo-sete {
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+
+
+
+.bolo {
+    width: 30px;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+
+button {
+    justify-self: end;
+    margin-right: -30px;
+    margin-top: -70px;
+    
+    
+}
+
+.menu {
+    background-color: #f2d0e0;
+    height: 601.9px;
+    
+}
+
+.setas {
+    background-color: #f2d0e0;
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px 1fr;
+    height: 601.9px;
+    
+}
+
+.seta1 {
+    width: 20px;
+    margin-top: 35px;
+}
+
+.seta2 {
+    width: 20px;
+    margin-top: 30px;
+}
+
+.seta3 {
+    width: 20px;
+    margin-top: 20px;
+}
+
+.seta4 {
+    width: 20px;
+    margin-top: 15px;
+}
+
+.home {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.bombom {
+    width: 30px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.carrinho {
+    width: 30px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.perfil {
+    width: 30px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
