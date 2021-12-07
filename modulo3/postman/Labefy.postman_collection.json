@@ -18,7 +18,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Alailson\" \r\n}",
+					"raw": "{\r\n    \"name\": \"Alailson 3\" \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -26,7 +26,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists\n",
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
 					"protocol": "https",
 					"host": [
 						"us-central1-labenu-apis",
@@ -35,7 +35,7 @@
 					],
 					"path": [
 						"labefy",
-						"playlists\n"
+						"playlists"
 					]
 				}
 			},
@@ -45,8 +45,26 @@
 			"name": "Get All Users",
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "alailson-barbosa-joy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists"
+					]
+				}
 			},
 			"response": []
 		},
@@ -66,7 +84,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"result\": {\r\n        \"quantity\": \"number\",\r\n        \"list\": [\r\n            {\r\n                \"id\": \"string\",\r\n                \"name\": \"string\"\r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -92,9 +110,44 @@
 		{
 			"name": "Add Track",
 			"request": {
-				"method": "GET",
-				"header": [],
-				"url": null
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "alailson-barbosa-joy",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"November Rain\", \r\n    \"artist\": \"Guns n roses\",\r\n    \"url\": \"https://www.youtube.com/watch?v=8SbUC-UaAxE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/:playlistId/tracks",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						":playlistId",
+						"tracks"
+					],
+					"variable": [
+						{
+							"key": "playlistId",
+							"value": "e51c7f37-5ec3-4c16-a9d6-e61b6bb311be"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -137,8 +190,33 @@
 			"name": "Search Playlists",
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "alailson-barbosa-joy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists/search?name=alailson 2",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labefy",
+						"playlists",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "alailson 2"
+						}
+					]
+				}
 			},
 			"response": []
 		}
