@@ -19,7 +19,7 @@ function CharacterDetailPage(props) {
   
       Detail Page
 
-      <button onClick={props.irLista}>Troca página</button>
+      <button onClick={props.irLista}> Troca página </button>
   
       </div>
     );

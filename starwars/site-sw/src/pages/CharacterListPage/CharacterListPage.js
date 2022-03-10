@@ -22,7 +22,7 @@ function CharacterListPage(props) {
 
       
 
-      <button onClick={props.irDetalhe}>Troca página</button>
+      <button onClick={props.irDetalhe}> Troca página </button>
       
   
       </div>
